@@ -8,7 +8,7 @@ export default function App() {
   var pageName = 'home';
 
   var playUrl = 'https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png'
-  var pauseUrl = 'https://lh3.googleusercontent.com/proxy/MVIzuDezY2kvdiPE8aikMYoXMzhvk94zBaUU-MeSPA_ST7aTVMR3bOzXfVDjKB4zU3qOnHRhxZRaqyn_niO8i2twhDSzqY5xonScbRvYir-jTsbhed_GOwKJPIq_ppkLQva2m3z7'
+  var pauseUrl = 'https://lh3.googleusercontent.com/proxy/SFPcLTtrgkAzh8YPd1rJjBpBr_crHsFqcPVAwnlBzjwqOFknnBbMD1WE5GG99VqZ7BrT2HvnOJoOeW5Mt3aQ6hYuO6yOLPvLmChCnXh6d0jdxfEVjSxuXwVm4k43RGoD__PlstAc'
 
   const [pause, setPause] = useState([playUrl, playUrl, playUrl, playUrl, playUrl])
 
@@ -38,7 +38,7 @@ export default function App() {
           <img src="https://i.ytimg.com/vi/0SZb-Q30wuw/maxresdefault.jpg" alt="option"/>
           <div className="optionFlex">
             <h2>Alone</h2>
-            <img src={pause[0]} alt="song"/>
+            <img src={pause[0]} alt="button"/>
           </div>
         </div>
 
